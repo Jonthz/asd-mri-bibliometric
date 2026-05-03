@@ -1,0 +1,24 @@
+# Scopus Query
+# Paper: Bibliometric Analysis of Deep Learning Architectures Applied 
+# to MRI for Autism Spectrum Disorder Classification (2018-2025)
+# Author: Jonathan Zambrano-Arriaga, ESPOL
+# Date accessed: May 2, 2026
+
+## Main Query
+
+( TITLE-ABS-KEY ( "autism" OR "ASD" OR "autism spectrum disorder" ) 
+AND TITLE-ABS-KEY ( "MRI" OR "magnetic resonance imaging" OR "fMRI" 
+OR "sMRI" OR "neuroimaging" OR "DTI" ) 
+AND TITLE-ABS-KEY ( "deep learning" OR "machine learning" 
+OR "neural network" OR "neural networks" OR "CNN" OR "transformer" 
+OR "transformers" OR "SVM" OR "classification" ) ) 
+AND PUBYEAR > 2017 AND PUBYEAR < 2026
+
+## Query Parameters
+
+Database: Scopus
+Field: TITLE-ABS-KEY (title, abstract, and keywords)
+Document types: All (Article, Conference Paper, Review, and others)
+Language: All
+Results: 2,025 documents
+Date of retrieval: May 2, 2026
